@@ -9,7 +9,6 @@ An API to allow user and account management for Zip Pay
 Your machine needs to have installed:
 
 ```
-.NET Core 3.1
 Docker version 19.03
 ```
 
