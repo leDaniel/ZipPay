@@ -1,0 +1,30 @@
+version: '2.1'
+services:
+    zippay-db-server: 
+        image: mysql        
+        environment:         
+            MYSQL_ROOT_PASSWORD: zippay            
+        ports: 
+            - "3306:3306"
+        healthcheck:
+            test: [ "CMD", "mysqladmin" ,"ping", "-h", "localhost" ]
+            timeout: 10s
+            interval: 20s
+            retries: 3
+        
+    zippay: 
+        build: .
+        environment: 
+            DBServer: "zippay-db-server"
+            DBPort: "3306"
+            DBName: "ZipPayDB"
+            DBUser: "root" 
+            DBPassword: "zippay"
+        ports:
+            - "8080:80"        
+        depends_on:
+            zippay-db-server:
+                condition: service_healthy
+    
+
+            
