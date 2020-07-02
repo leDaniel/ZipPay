@@ -43,3 +43,15 @@
 /Users/ledaniel/Desktop/ZipPay/obj/Debug/netcoreapp3.1/ZipPay.dll
 /Users/ledaniel/Desktop/ZipPay/obj/Debug/netcoreapp3.1/ZipPay.pdb
 /Users/ledaniel/Desktop/ZipPay/obj/Debug/netcoreapp3.1/ZipPay.genruntimeconfig.cache
+/Users/ledaniel/Desktop/ZipPay/bin/Debug/netcoreapp3.1/Microsoft.AspNetCore.JsonPatch.dll
+/Users/ledaniel/Desktop/ZipPay/bin/Debug/netcoreapp3.1/Microsoft.DotNet.InternalAbstractions.dll
+/Users/ledaniel/Desktop/ZipPay/bin/Debug/netcoreapp3.1/Microsoft.Extensions.DependencyModel.dll
+/Users/ledaniel/Desktop/ZipPay/bin/Debug/netcoreapp3.1/Microsoft.Extensions.PlatformAbstractions.dll
+/Users/ledaniel/Desktop/ZipPay/bin/Debug/netcoreapp3.1/Namotion.Reflection.dll
+/Users/ledaniel/Desktop/ZipPay/bin/Debug/netcoreapp3.1/NJsonSchema.dll
+/Users/ledaniel/Desktop/ZipPay/bin/Debug/netcoreapp3.1/NSwag.Annotations.dll
+/Users/ledaniel/Desktop/ZipPay/bin/Debug/netcoreapp3.1/NSwag.AspNetCore.dll
+/Users/ledaniel/Desktop/ZipPay/bin/Debug/netcoreapp3.1/NSwag.Core.dll
+/Users/ledaniel/Desktop/ZipPay/bin/Debug/netcoreapp3.1/NSwag.Generation.dll
+/Users/ledaniel/Desktop/ZipPay/bin/Debug/netcoreapp3.1/NSwag.Generation.AspNetCore.dll
+/Users/ledaniel/Desktop/ZipPay/obj/Debug/netcoreapp3.1/ZipPay.MvcApplicationPartsAssemblyInfo.cs

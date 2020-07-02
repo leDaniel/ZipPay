@@ -53,6 +53,21 @@ namespace ZipPay
 
             services.AddControllers();
 
+            services.AddSwaggerDocument(config =>
+            {
+                config.PostProcess = document =>
+                {
+                    document.Info.Version = "v1";
+                    document.Info.Title = "ZipPay API";
+                    document.Info.Description = "An API to allow user and account management for Zip Pay";
+                    document.Info.TermsOfService = "None";
+                    document.Info.Contact = new NSwag.OpenApiContact
+                    {
+                        Name = "Daniel Krishnapillai"     
+                    };
+                };
+            });
+
             services.AddAutoMapper(AppDomain.CurrentDomain.GetAssemblies());
 
             services.AddScoped<IZipPayRepo, SQLZipPayRepo>();             
@@ -72,6 +87,9 @@ namespace ZipPay
             app.UseRouting();
 
             app.UseAuthorization();
+
+            app.UseOpenApi();
+            app.UseSwaggerUi3();
 
             app.UseEndpoints(endpoints =>
             {
