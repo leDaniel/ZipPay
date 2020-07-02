@@ -28,3 +28,18 @@ cd ZipPay
 docker-compose up
 ```
 
+### Usage
+
+The api should run by default on 
+
+```
+http://localhost:8080
+```
+
+For Swagger documentation, go to
+
+
+```
+http://localhost:8080/swagger
+```
+
